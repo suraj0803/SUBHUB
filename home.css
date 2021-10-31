@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family:'poppins', sans-serif;
+    margin-top:5px;
+    margin-bottom: 5px;
+   
+}
+
+:root{
+    --primary-color:#f28517
+}
+
+
+
+
+
+
+
+.background_image{
+    background-image: linear-gradient(#00010cb3, #00010cb3 ), url('https://dstudio.consulting/wp-content/uploads/2020/09/digital-marketing-background-1600x700.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.background_image .navbar{
+    padding: 20px, 0px;
+
+}
+
+.navbar .nav-item{
+    margin: 0px 15px;
+}
+
+.navbar .nav-item .btn{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(42, 190, 109);
+        color: white;
+        border: none;
+        box-shadow: 0 3px 7px 0 #314584;
+        border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    }
+
+
+.navbar .navbar-nav .nav-link{
+    color: white !important;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.navbar .navbar-nav .nav-link::before{
+    content: '.';
+    color: var(--primary-color);
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+.navbar .navbar-nav .nav-link:hover::before{
+    position: relative;
+    top:-5px;
+}
+
+.hero_section .content{
+    position: absolute;
+    top: 70px;
+}
+
+.hero_section .heading{
+    color: white !important;
+    font-weight: 900;
+    font-size: 67px;
+}
+
+.hero_section .txt{
+    color: #a9a9a9e0;
+    width: 84%;
+    margin: 21px 0px 21px 0px;
+}
+
+.hero_section .btn-primary-color{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px;
+}
+.hero_section .btn-primary-color:hover{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: white;
+    animation:pulse;
+    animation-duration: 1s;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  ::selection{
+    color: #000;
+    background: #fff;
+  }
+  nav{
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+  
+  .nav-item .btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(42, 190, 109);
+    color: white;
+    border: none;
+    box-shadow: 0 3px 7px 0 #314584;
+    border-radius: 5px;
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+.background_image{
+    background-image: linear-gradient(#00010cb3, #00010cb3 ), url('https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/10/ott-1602771365.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/* NEED */
+.services_section{
+    margin: 100px 100px;
+}
+
+.services_section .heading {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.services_cards .card{
+    background: #eaeaea61;
+    padding: 20px;
+}
+
+.services_cards .card:hover{
+    background:var(--primary-color);
+    animation: pulse 0.5s infinite;
+}
+
+.services_cards .card:hover .card_txt{
+    color: white !important;
+}
+
+.services_cards .card:hover .card-title{
+    color: white !important;
+}
+
+.services_cards .card .card-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.services_cards .card_txt{
+    color: #000000ba;
+}
+
+
+
+/* services */
+.latest{
+    margin: 150px 0px;
+}
+.latest .card{
+    background-color: linear-gradient(45deg, #dedede8f, #dedede8f);
+}
+.latest .card:hover{
+   
+    animation: pulse 0.5s;
+}
+.latest .card_title{
+    font-weight: 500;
+    font-size: 17px;
+}
+.latest .card-body .card_txt{
+    color: #2d2d2d;
+    font-size: 13px;
+}
+.latest .card-body{
+    background-color: #ECECEC;
+}
+.latest .card-body hr{
+    margin: 10px 0px;
+    height: 0.1px;
+    background: black;
+    width: 24%;
+}
+
+
+/* contact */
+.contact{
+    background: rgba(0,0,0,0.1) ;
+}
+.contact .headind{
+    font-weight: 800;
+    font-size: 50px;
+}
+.contact form .form-control{
+    background:white;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+    color: rgb(39,39,39);
+}
+.contact form button{
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: white;
+    font-size: 15px;
+padding: 10px 30px 10px 30px !important;
+}
+.contact form button:hover{
+    animation: pulse 0.5s;
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+/* WIDGETS */
+.widgets_area{
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #f8f9fc;
+}
+
+.widgets_area .row{
+    align-items: center;
+    justify-content: center;
+}
+
+.widgets_area .row a img{
+    opacity: 0.7;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.widgets_area .row a img:hover
+{
+    opacity: 1;
+}
+
+
+/* footer */
+.footer{
+    background: rgb(39,39,39);
+    padding: 20px 0px;
+    margin-top: 5%;
+    text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.footer .links_column{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+.footer .links .fa{
+    color: var(--primary-color);
+    font-size: 17px;
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+   
+}
+.footer .links .fa:hover{
+    animation: pulse 0.5s;
+}
+
+
+
